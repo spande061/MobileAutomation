@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HelloTestNgSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="methods" name="HelloWorldTest(failed)" verbose="0">
+    <classes>
+      <class name="APIAutomation.RestPostMethod">
+        <methods>
+          <include name="PostMethod2"/>
+        </methods>
+      </class> <!-- APIAutomation.RestPostMethod -->
+    </classes>
+  </test> <!-- HelloWorldTest(failed) -->
+</suite> <!-- Failed suite [HelloTestNgSuite] -->
